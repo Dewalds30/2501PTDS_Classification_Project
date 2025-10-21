@@ -28,6 +28,9 @@
 # Streamlit dependencies
 import os
 os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
+os.environ["STREAMLIT_SERVER_ENABLE_CORS"] = "false"
+os.environ["STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION"] = "false"
+
 import streamlit as st
 import joblib
 import re
@@ -36,6 +39,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 
 # --- Ensure NLTK data is available ---
+nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
 nltk_data_resources = ["stopwords", "punkt", "wordnet", "omw-1.4"]
 for resource in nltk_data_resources:
     try:
@@ -47,6 +51,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import pickle
+
 
 # ---------------------------------------------------------------
 # Load the pickled model and vectorizer
