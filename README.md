@@ -41,8 +41,13 @@ The dataset is comprised of news articles that need to be classified into catego
 ## 3. Packages <a class="anchor" id="packages"></a>
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
-+ `Pandas 2.2.2` and `Numpy 1.26`
-+ `Matplotlib 3.8.4`
++ `Pandas`
++ `Matplotlib`
++ `nltk`
++ `re`
++ `numpy`
++ `pickle`
++ `streamlit`
  
 
 ## 4. Environment <a class="anchor" id="environment"></a>
@@ -137,5 +142,7 @@ Congratulations! You've now officially deployed your first web application!
 
 | Name                                                                                        |  Email              
 |---------------------------------------------------------------------------------------------|--------------------             
-| [Oludare Adekunle](https://github.com/DareSandtech)                                         | oadekunle@sandtech.com
-| [Claudia Elliot-Wilson]()                                                                   | celliot-wilson@sandtech.com
+| [Willie Foster]()                                                                           | wktkfoster@gmail.com
+| [Mahen Pillay]()                                                                            | mahen308@gmail.com
+| [Dewald Scriven]()                                                                          | dewald.scriven@gmail.com
+   
