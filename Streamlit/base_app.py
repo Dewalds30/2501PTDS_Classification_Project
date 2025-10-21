@@ -68,10 +68,12 @@ vectorizer = data["vectorizer"]
 # ---------------------------------------------------------------
 DATA_PATH = r"C:\Users\Dewald\Documents\GitHub\2501PTDS_Classification_Project\Data\processed\train.csv"
 
+DATA_PATH = os.path.join("Data", "processed", "train.csv")
+
 if os.path.exists(DATA_PATH):
     raw = pd.read_csv(DATA_PATH)
 else:
-    st.warning("Processed data file not found at: " + DATA_PATH)
+    st.warning(f"Processed data file not found at: {DATA_PATH}")
 
 # ---------------------------------------------------------------
 # Text preprocessing function
