@@ -43,8 +43,7 @@ import pickle
 # ---------------------------------------------------------------
 # Load the pickled model and vectorizer
 # ---------------------------------------------------------------
-PICKLE_PATH = r"C:\Users\Dewald\Documents\GitHub\2501PTDS_Classification_Project\pickled_files\model_and_vectorizer.pkl"
-
+PICKLE_PATH = os.path.join("pickled_files", "model_and_vectorizer.pkl")
 with open(PICKLE_PATH, "rb") as f:
     data = pickle.load(f)
 
