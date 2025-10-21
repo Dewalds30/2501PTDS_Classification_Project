@@ -30,11 +30,18 @@ import streamlit as st
 import joblib
 import os
 import re
-
-# Data dependencies
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
+
+# --- Ensure NLTK data is available ---
+nltk_data_resources = ["stopwords", "punkt", "wordnet", "omw-1.4"]
+for resource in nltk_data_resources:
+    try:
+        nltk.data.find(f"corpora/{resource}")
+    except LookupError:
+        nltk.download(resource)
+
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
