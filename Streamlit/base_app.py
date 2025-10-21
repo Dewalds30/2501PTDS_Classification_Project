@@ -40,7 +40,7 @@ import nltk
 
 # --- Ensure NLTK data is available ---
 nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
-nltk_data_resources = ["stopwords", "punkt", "wordnet", "omw-1.4"]
+nltk_data_resources = ["stopwords", "punkt", "punkt_tab", "wordnet", "omw-1.4"]
 for resource in nltk_data_resources:
     try:
         nltk.data.find(f"corpora/{resource}")
