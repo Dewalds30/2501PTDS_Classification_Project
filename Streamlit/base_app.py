@@ -26,9 +26,10 @@
 # ===============================================================
 
 # Streamlit dependencies
+import os
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
 import streamlit as st
 import joblib
-import os
 import re
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
