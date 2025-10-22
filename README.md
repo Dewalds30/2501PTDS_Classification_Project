@@ -112,7 +112,7 @@ As a first step to becoming familiar with our web app's functioning, we recommen
 - Navigate to the base of your repo where your base_app.py is stored, and start the Streamlit app.
 
  ```bash
- https://dewalds30-2501ptds-classification-proj-streamlitbase-app-gzpcko.streamlit.app/
+https://github.com/Dewalds30/2501PTDS_Classification_Project/tree/main/Streamlit
  #cd 2401FTDS_Classification_Project/Streamlit/
  #streamlit run base_app.py
  ```
@@ -123,7 +123,7 @@ As a first step to becoming familiar with our web app's functioning, we recommen
   You can now view your Streamlit app in your browser.
 
     Local URL: http://localhost:8501
-    Network URL: http://192.168.43.41:8501
+    Network URL: https://dewalds30-2501ptds-classification-proj-streamlitbase-app-gzpcko.streamlit.app/
 ```
 You should also be automatically directed to the base page of your web app. This should look something like:
 
