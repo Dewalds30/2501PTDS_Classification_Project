@@ -112,8 +112,9 @@ As a first step to becoming familiar with our web app's functioning, we recommen
 - Navigate to the base of your repo where your base_app.py is stored, and start the Streamlit app.
 
  ```bash
- cd 2401FTDS_Classification_Project/Streamlit/
- streamlit run base_app.py
+ https://dewalds30-2501ptds-classification-proj-streamlitbase-app-gzpcko.streamlit.app/
+ #cd 2401FTDS_Classification_Project/Streamlit/
+ #streamlit run base_app.py
  ```
 
  If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
