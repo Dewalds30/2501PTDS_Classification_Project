@@ -113,8 +113,7 @@ As a first step to becoming familiar with our web app's functioning, we recommen
 
  ```bash
 https://github.com/Dewalds30/2501PTDS_Classification_Project/tree/main/Streamlit
- #cd 2401FTDS_Classification_Project/Streamlit/
- #streamlit run base_app.py
+
  ```
 
  If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
